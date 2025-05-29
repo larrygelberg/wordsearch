@@ -23,17 +23,10 @@ def simple_fill(g):
 def hairy_fill(g, words):
     # First, build a histogram of frequency of letters in the word set
     all_characters = ''.join(words)
-    
-    # Count the frequency of each character
     character_count = Counter(all_characters)
-    
-    # Get the 10 most common characters
-    most_common = character_count.most_common(10)
-    
-    # Extract just the characters from the tuples
+    most_common = character_count.most_common(7)
     most_frequent_chars = [char for char, count in most_common]
-
-    print (most_frequent_chars)
+    # print (most_frequent_chars)
 
     # fill in the empty spaces based on the most frequent letters
     for i in range(height):
@@ -233,11 +226,11 @@ print_game(final_game)
 print()
 print()
 print("Find these words: ")
-pretty_print(sorted(final_used))
+pretty_print(sorted(final_used, key=len))
 
 # print any words that couldn't be placed
 if len(unused) > 0:
-    print
+    print()
     print("Unused:",final_unused)
     print
 
