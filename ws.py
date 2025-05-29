@@ -1,6 +1,7 @@
 import sys
 import string
 import random
+from collections import Counter
 
 # Function to print a list of words in four columns
 def pretty_print(mylist):
@@ -17,6 +18,29 @@ def simple_fill(g):
         for j in range(width):
             if (g[i][j] == 0):
                 g[i][j] = random.choice(string.ascii_uppercase)
+
+# Function to fill in 'empty' spaces with sneaky characters based on prevalence of letters in the word set
+def hairy_fill(g, words):
+    # First, build a histogram of frequency of letters in the word set
+    all_characters = ''.join(words)
+    
+    # Count the frequency of each character
+    character_count = Counter(all_characters)
+    
+    # Get the 10 most common characters
+    most_common = character_count.most_common(10)
+    
+    # Extract just the characters from the tuples
+    most_frequent_chars = [char for char, count in most_common]
+
+    print (most_frequent_chars)
+
+    # fill in the empty spaces based on the most frequent letters
+    for i in range(height):
+        for j in range(width):
+            if (g[i][j] == 0):
+                #g[i][j] = random.choice(string.ascii_uppercase)
+                g[i][j] = random.choice(most_frequent_chars)
 
 # Function to print the game board
 def print_game(g):
@@ -147,17 +171,21 @@ height = 10
 final_game = []
 final_unused = []
 final_used = []
+easy = True
 
 if (len(sys.argv) < 2):
-    print("usage: %s word_file (width height)" % sys.argv[0]) 
+    print("usage: %s word_file (width height easy|hard)" % sys.argv[0]) 
     sys.exit()
 
 if (len(sys.argv) == 2):
     width = int(input("Enter width: "))
     height = int(input("Enter height: "))
-elif (len(sys.argv) == 4):
+elif (len(sys.argv) >= 4):
     width = int(sys.argv[2])
     height = int(sys.argv[3])
+
+if (len(sys.argv) == 5 and sys.argv[4] == "hard" ):
+    easy = False
 
 # read the word file
 words = read_words(sys.argv[1])
@@ -194,7 +222,10 @@ for g in range(0,game_attempt_limit):
         min_placed_words = placed_words
 
 # fill in remaining spaces with random letters
-simple_fill(final_game)
+if easy:
+    simple_fill(final_game)
+else:
+    hairy_fill(final_game, words)
 
 # print the results
 print_game(final_game)
