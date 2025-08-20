@@ -1,16 +1,30 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "name": "Python Debugger: Current File with Arguments",
+            "name": "Python Debugger: Diamond Test",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "ws.py",
             "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
-        }
+            "args": ["--shape_file", "diamond.txt", "test.txt"]
+        },
+        {
+            "name": "Python Debugger: Basic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ws.py",
+            "console": "integratedTerminal",
+            "args": ["--width","10","--height","10", "test.txt"]
+        },
+        {
+            "name": "Python Debugger: Rectangular",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ws.py",
+            "console": "integratedTerminal",
+            "args": ["--width","8","--height","4", "test.txt"]
+        }        
     ]
 }
