@@ -205,9 +205,9 @@ debug = True if args.debug else False
 if args.shape_file is not None:
     try:
         with open(args.shape_file, 'r') as file:
-            content = file.read()
-            # Convert the content to a list of characters
-            shape = list(content)
+            for line in file:
+                width = len(line)
+                print('new width', width)
     except FileNotFoundError:
         print(f"Error: The file '{args.shape_file}' was not found.")
     except Exception as e:
