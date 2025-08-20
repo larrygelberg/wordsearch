@@ -2,6 +2,7 @@ import sys
 import string
 import random
 import argparse
+import copy
 from collections import Counter
 
 # Function to print a list of words in four columns
@@ -15,8 +16,8 @@ def pretty_print(mylist):
 
 # Function to fill in 'empty' spaces with '.' for debugging
 def debug_fill():
-    for i in range(width):
-        for j in range(height):
+    for i in range(height):
+        for j in range(width):
             if (final_game[i][j] == 0):
                 final_game[i][j] = '.'
 
@@ -24,7 +25,9 @@ def debug_fill():
 def simple_fill():
     for i in range(width):
         for j in range(height):
-            if (final_game[i][j] == 0):
+            if (final_game[i][j] ==  '.'):
+                final_game[i][j] = ' '
+            elif (final_game[i][j] == 0):
                 final_game[i][j] = random.choice(string.ascii_uppercase)
 
 # Function to fill in 'empty' spaces with sneaky characters based on prevalence of letters in the word set
@@ -40,7 +43,9 @@ def hairy_fill():
     # fill in the empty spaces based on the most frequent letters
     for i in range(width):
         for j in range(height):
-            if (final_game[i][j] == 0):
+            if (final_game[i][j] ==  '.'):
+                final_game[i][j] = ' '
+            elif (final_game[i][j] == 0):
                 final_game[i][j] = random.choice(most_frequent_chars)
 
 # Function to print the game board
@@ -49,6 +54,13 @@ def print_game():
         print ('')
         for j in range(width):
             print(str(final_game[j][i]),end=' ')
+
+def print_shape():
+    print(shape,width,height)
+    for i in range(height):
+        print ('')
+        for j in range(width):
+            print(shape[i*width+j],end=' ')
 
 # Function to read the words from a file
 def read_words(fname):
@@ -64,6 +76,9 @@ def read_words(fname):
 
 # Function to see if the proposed character's space is available
 def check_char(x, y, char):
+    if x < 0 or x >= width or y<0 or y >= height:
+        return False
+    bar = game[x][y]
     return game[x][y] == 0 or game[x][y] == char
 
 # Function to insert a word into the game board
@@ -73,8 +88,8 @@ def check_char(x, y, char):
 def insert(word, direction):
     attempt_limit = 1000     # adjust this to try more (or less) times
     for attempt in range (0, attempt_limit):
-        x = random.randint(0,width-1)
-        y = random.randint(0,height-1)
+        x = random.randint(0,height-1)
+        y = random.randint(0,width-1)
 
         forward = True if direction & 1 else False
         horizontal = True if direction & 2  else False
@@ -90,7 +105,7 @@ def insert(word, direction):
                     safe = True
                     for i in range(0, len(word)):
                         if forward:
-                            safe = check_char(x+i, y+i, [i])
+                            safe = check_char(x+i, y+i, word[i])
                         else:
                             safe = check_char(x+len(word)-i-1, y+i, word[i])
                         if not safe:
@@ -128,7 +143,7 @@ def insert(word, direction):
                     safe = True
                     for i in range(0, len(word)):
                         if forward:
-                            safe = check_char(x+i, y, [i])
+                            safe = check_char(x+i, y, word[i])
                         else:
                             safe = check_char(x+len(word)-i-1, y, word[i])
                         if not safe:
@@ -165,14 +180,9 @@ def insert(word, direction):
         unused.append(word)
 
 # Function to set the board at the beginning of each iteration
-def initialize_board(game, shape):
-    k = 0
-    if shape:
-        game = [[ shape[k] for i in range(height)] for j in range(width)]
-    else:
-        game = [[0 for i in range(height)] for j in range(width)]
+#def initialize_board(game):
+#   game = [[0 for i in range(height)] for j in range(width)]
 
-        
 ################################################################
 
 final_game = []
@@ -205,9 +215,25 @@ debug = True if args.debug else False
 if args.shape_file is not None:
     try:
         with open(args.shape_file, 'r') as file:
+            tempShape = []
+            height = 0
             for line in file:
                 width = len(line)
-                print('new width', width)
+                for c in line:
+                    if c == '0':
+                        c = 0
+                    if c != '\n':
+                        tempShape.append(c)
+                height = height + 1
+
+            for i in range(height):
+                row = []
+                for j in range(width):
+                    row.append('0')
+                shape.append(row)
+
+            print_shape()
+
     except FileNotFoundError:
         print(f"Error: The file '{args.shape_file}' was not found.")
     except Exception as e:
@@ -225,7 +251,11 @@ for g in range(0,game_attempt_limit):
     unused = []
     used = []
     # initialize the game board
-    game = [[0 for i in range(height)] for j in range(width)]
+    if shape:
+        game = copy.deepcopy(shape)
+    else:    
+        game = [[0 for i in range(height)] for j in range(width)]
+
     #initialize_board(game, shape)
 
     # stick words into the game board
