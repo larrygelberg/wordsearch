@@ -23,12 +23,12 @@ def debug_fill():
 
 # Function to fill in 'empty' spaces with random characters
 def simple_fill():
-    for i in range(width):
-        for j in range(height):
-            if (final_game[i][j] ==  '.'):
-                final_game[i][j] = ' '
-            elif (final_game[i][j] == 0):
-                final_game[i][j] = random.choice(string.ascii_uppercase)
+    for i in range(height):
+        for j in range(width):
+            if (final_game[j][i] ==  '.'):
+                final_game[j][i] = ' '
+            elif (final_game[j][i] == 0):
+                final_game[j][i] = random.choice(string.ascii_uppercase)
 
 # Function to fill in 'empty' spaces with sneaky characters based on prevalence of letters in the word set
 def hairy_fill():
@@ -41,8 +41,8 @@ def hairy_fill():
         print (most_frequent_chars)
 
     # fill in the empty spaces based on the most frequent letters
-    for i in range(width):
-        for j in range(height):
+    for i in range(height):
+        for j in range(width):
             if (final_game[i][j] ==  '.'):
                 final_game[i][j] = ' '
             elif (final_game[i][j] == 0):
@@ -60,7 +60,7 @@ def print_shape():
     for i in range(height):
         print ('')
         for j in range(width):
-            print(shape[i*width+j],end=' ')
+            print(str(shape[j][i]),end=' ')    
 
 # Function to read the words from a file
 def read_words(fname):
@@ -179,10 +179,6 @@ def insert(word, direction):
     else:
         unused.append(word)
 
-# Function to set the board at the beginning of each iteration
-#def initialize_board(game):
-#   game = [[0 for i in range(height)] for j in range(width)]
-
 ################################################################
 
 final_game = []
@@ -226,13 +222,10 @@ if args.shape_file is not None:
                         tempShape.append(c)
                 height = height + 1
 
-            for i in range(height):
-                row = []
-                for j in range(width):
-                    row.append('0')
-                shape.append(row)
+            shape = [[tempShape[i*width + j] for i in range(height)] for j in range(width)]
 
-            print_shape()
+            if debug:
+                print_shape()
 
     except FileNotFoundError:
         print(f"Error: The file '{args.shape_file}' was not found.")
@@ -255,8 +248,6 @@ for g in range(0,game_attempt_limit):
         game = copy.deepcopy(shape)
     else:    
         game = [[0 for i in range(height)] for j in range(width)]
-
-    #initialize_board(game, shape)
 
     # stick words into the game board
     for word in words:
