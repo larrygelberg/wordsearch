@@ -8,7 +8,7 @@
             "request": "launch",
             "program": "ws.py",
             "console": "integratedTerminal",
-            "args": ["--shape_file", "square_shape.txt", "test.txt"]
+            "args": ["--shape_file", "flowers_shape.txt", "fabrics.txt"]
         },
         {
             "name": "Python Debugger: Basic",
