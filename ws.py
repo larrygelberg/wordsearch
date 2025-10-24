@@ -50,10 +50,11 @@ def hairy_fill():
 
 # Function to print the game board
 def print_game():
+    endchar = '' if nospace else ' '
     for i in range(height):
         print ('')
         for j in range(width):
-            print(str(final_game[j][i]),end=' ')
+            print(str(final_game[j][i]),end=endchar)
 
 def print_shape():
     print(shape,width,height)
@@ -198,6 +199,7 @@ parser.add_argument('--width', type=int, help='Optional width')
 parser.add_argument('--height', type=int, help='Optional height')
 parser.add_argument('--hard', action='store_true', help='Optional hard flag')
 parser.add_argument('--shape_file', type=str, help='Optional shape file')
+parser.add_argument('--no_space', action='store_true', help='Do not put spaces in game output')
 parser.add_argument('--debug', action='store_true', help='Debug Flag')
 
 # Parse the arguments
@@ -208,6 +210,8 @@ width = 10 if args.width is None else args.width
 height = 10 if args.height is None else args.height
 easy = False if args.hard else True
 debug = True if args.debug else False
+nospace = True if args.no_space else False
+
 if args.shape_file is not None:
     try:
         with open(args.shape_file, 'r') as file:
