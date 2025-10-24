@@ -18,8 +18,8 @@ def pretty_print(mylist):
 def debug_fill():
     for i in range(height):
         for j in range(width):
-            if (final_game[i][j] == 0):
-                final_game[i][j] = '.'
+            if (final_game[j][i] == 0):
+                final_game[j][i] = '.'
 
 # Function to fill in 'empty' spaces with random characters
 def simple_fill():
@@ -43,10 +43,10 @@ def hairy_fill():
     # fill in the empty spaces based on the most frequent letters
     for i in range(height):
         for j in range(width):
-            if (final_game[i][j] ==  '.'):
-                final_game[i][j] = ' '
-            elif (final_game[i][j] == 0):
-                final_game[i][j] = random.choice(most_frequent_chars)
+            if (final_game[j][i] ==  '.'):
+                final_game[j][i] = ' '
+            elif (final_game[j][i] == 0):
+                final_game[j][i] = random.choice(most_frequent_chars)
 
 # Function to print the game board
 def print_game():
@@ -88,14 +88,14 @@ def check_char(x, y, char):
 def insert(word, direction):
     attempt_limit = 1000     # adjust this to try more (or less) times
     for attempt in range (0, attempt_limit):
-        x = random.randint(0,height-1)
-        y = random.randint(0,width-1)
+        x = random.randint(0,width-1)
+        y = random.randint(0,height-1)
 
         forward = True if direction & 1 else False
         horizontal = True if direction & 2  else False
         diagonal = True if direction & 4 else False
-        if debug:
-            print(attempt, ": Trying", word,"at",x, y)
+        #if debug:
+        #    print(attempt, ": Trying", word,"at",x, y)
 
         if diagonal:
             # Horizontal and Vertical words
@@ -287,7 +287,7 @@ print("Find these words: ")
 pretty_print(sorted(final_used, key=len))
 
 # print any words that couldn't be placed
-if debug and len(unused) > 0:
+if len(unused) > 0:
     print()
     print("Unused:",final_unused)
     print()
