@@ -57,7 +57,8 @@ export default function App() {
     if (!file) return;
     const text = await file.text();
     const list = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean).map(w => w.toUpperCase());
-    setWords(list.map(w => ({ word: w, found: false })));
+    const sorted = list.sort((a, b) => a.length - b.length);
+    setWords(sorted.map(w => ({ word: w, found: false })));
     setOvals([]);
     setShowOverlay(false);
   };
@@ -178,11 +179,12 @@ export default function App() {
       ctx.rotate(ov.angle);
       ctx.beginPath();
       ctx.ellipse(0, 0, length / 2, cellSize / 1.5, 0, 0, 2 * Math.PI);
-      ctx.fillStyle = "rgba(0,128,0,0.3)";
+      ctx.fillStyle = "rgba(0,128,0,0.2)";
       ctx.fill();
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = "rgba(0,128,0,0.7)";
-      ctx.stroke();
+      // borders around the solved ovals
+      // ctx.lineWidth = 2;
+      // ctx.strokeStyle = "rgba(0,128,0,0.7)";
+      // ctx.stroke();
       ctx.restore();
     });
 
