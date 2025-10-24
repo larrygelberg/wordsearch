@@ -4,11 +4,11 @@ import numpy as np
 import sys
 import os
 
-def img_to_dotzero_threshold(path, out_width=120, threshold=128):
+def img_to_dotzero_threshold(path, out_width=120, threshold=250):
     # Load and convert to grayscale
     img = Image.open(path).convert('L')
     w, h = img.size
-    aspect = 0.55  # adjust for character aspect ratio (monospaced font)
+    aspect = 0.75  # adjust for character aspect ratio (monospaced font)
     out_height = int((h / w) * out_width * aspect)
     img = img.resize((out_width, max(1, out_height)), Image.LANCZOS)
     arr = np.array(img)
