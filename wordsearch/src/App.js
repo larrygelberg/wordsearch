@@ -55,40 +55,39 @@ function App() {
   };
 
   const handleMouseUp = () => {
-  if (!selection) return;
+    if (!selection) return;
 
-  const start = selection.start;
-  const end = selection.end;
+    const start = selection.start;
+    const end = selection.end;
 
-  const selectedCells = [];
-  const dx = Math.sign(end.x - start.x);
-  const dy = Math.sign(end.y - start.y);
-  const length = Math.max(Math.abs(end.x - start.x), Math.abs(end.y - start.y)) + 1;
+    const selectedCells = [];
+    const dx = Math.sign(end.x - start.x);
+    const dy = Math.sign(end.y - start.y);
+    const length = Math.max(Math.abs(end.x - start.x), Math.abs(end.y - start.y)) + 1;
 
-  for(let i=0;i<length;i++){
-    const cx = start.x + i*dx;
-    const cy = start.y + i*dy;
-    if(cy >=0 && cy < grid.length && cx >=0 && cx < grid[0].length){
-      selectedCells.push({x:cx,y:cy});
+    for(let i=0;i<length;i++){
+      const cx = start.x + i*dx;
+      const cy = start.y + i*dy;
+      if(cy >=0 && cy < grid.length && cx >=0 && cx < grid[0].length){
+        selectedCells.push({x:cx,y:cy});
+      }
     }
-  }
 
-  const selectedWord = selectedCells.map(c => grid[c.y][c.x]).join('');
-  const selectedWordRev = selectedWord.split('').reverse().join('');
+    const selectedWord = selectedCells.map(c => grid[c.y][c.x]).join('');
+    const selectedWordRev = selectedWord.split('').reverse().join('');
 
-  const wordIndex = words.findIndex(w => !w.found && (w.word === selectedWord || w.word === selectedWordRev));
-  if(wordIndex >=0){
-    const newWords = [...words];
-    newWords[wordIndex].found = true;
-    setWords(newWords);
+    const wordIndex = words.findIndex(w => !w.found && (w.word === selectedWord || w.word === selectedWordRev));
+    if(wordIndex >=0){
+      const newWords = [...words];
+      newWords[wordIndex].found = true;
+      setWords(newWords);
 
-    // store start, end, and angle
-    const angle = Math.atan2((end.y - start.y), (end.x - start.x)); // radians
-    setOvals([...ovals, {start, end, angle}]);
-  }
+      const angle = Math.atan2(end.y - start.y, end.x - start.x);
+      setOvals([...ovals, {start, end, angle}]);
+    }
 
-  setSelection(null);
-};
+    setSelection(null);
+  };
 
   // --- Draw canvas ---
   const drawCanvas = () => {
@@ -110,10 +109,7 @@ function App() {
       }
     }
 
-    // draw previous ovals
-    ctx.strokeStyle = 'rgba(0,128,0,0.7)';
-    ctx.lineWidth = 4;
-    // draw previous ovals
+    // draw previous ovals (filled for found words)
     ovals.forEach(sel => {
       const x0 = sel.start.x*cellSize + cellSize/2;
       const y0 = sel.start.y*cellSize + cellSize/2;
@@ -123,17 +119,24 @@ function App() {
       const centerX = (x0 + x1)/2;
       const centerY = (y0 + y1)/2;
       const width = Math.sqrt((x1 - x0)**2 + (y1 - y0)**2)/2 + cellSize/2;
-      const height = cellSize/1.5; // adjust oval thickness
+      const height = cellSize/1.5;
       const angle = sel.angle;
 
       ctx.save();
       ctx.translate(centerX, centerY);
       ctx.rotate(angle);
-      ctx.strokeStyle = 'rgba(0,128,0,0.7)';
-      ctx.lineWidth = 4;
+
+      // Filled oval with 30% transparency
+      ctx.fillStyle = 'rgba(0,128,0,0.3)';
       ctx.beginPath();
-      ctx.ellipse(0,0,width,height,0,0,2*Math.PI);
-      ctx.stroke();
+      ctx.ellipse(0, 0, width, height, 0, 0, 2*Math.PI);
+      ctx.fill();
+
+      // Optional: keep stroke outline if you like
+      //ctx.strokeStyle = 'rgba(0,128,0,0.7)';
+      //ctx.lineWidth = 2;
+      //ctx.stroke();
+
       ctx.restore();
     });
 
@@ -164,15 +167,17 @@ function App() {
 
   React.useEffect(drawCanvas, [grid, ovals, selection]);
 
+  const allFound = words.length > 0 && words.every(w => w.found);
+
   return (
-    <div style={{display:'flex', padding:'20px'}}>
+    <div style={{position:'relative', display:'flex', padding:'20px'}}>
       <div>
         <div>
-          <label>Upload grid.txt:</label>
+          <label>Upload grid file: </label>
           <input type="file" accept=".txt" onChange={handleGridUpload} />
         </div>
         <div style={{marginTop:'10px'}}>
-          <label>Upload word.txt:</label>
+          <label>Upload word file: </label>
           <input type="file" accept=".txt" onChange={handleWordsUpload} />
         </div>
         <canvas
@@ -195,6 +200,26 @@ function App() {
           ))}
         </ul>
       </div>
+
+      {/* Overlay when all words found */}
+      {allFound && (
+        <div style={{
+          position: 'absolute',
+          top: 0, left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundColor: 'rgba(0,0,0,0.5)',
+          display:'flex',
+          justifyContent:'center',
+          alignItems:'center',
+          color:'white',
+          fontSize:'48px',
+          fontWeight:'bold',
+          zIndex: 10
+        }}>
+          Yay! You did it!
+        </div>
+      )}
     </div>
   );
 }
