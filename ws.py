@@ -238,7 +238,7 @@ if debug:
     print(words)
 
 # loop over placements trying to find the most optimal board
-game_attempt_limit = 200
+game_attempt_limit = 400
 min_placed_words = len(words)
 for g in range(0,game_attempt_limit):
     unused = []
