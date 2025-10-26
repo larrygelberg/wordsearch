@@ -87,7 +87,7 @@ def check_char(x, y, char):
 #    and forward or backward
 #    This function tries to place the word 'attempt_limit' times before it gives up
 def insert(word, direction):
-    attempt_limit = 1000     # adjust this to try more (or less) times
+    attempt_limit = 2000     # adjust this to try more (or less) times
     for attempt in range (0, attempt_limit):
         x = random.randint(0,width-1)
         y = random.randint(0,height-1)
@@ -242,7 +242,7 @@ if debug:
     print(words)
 
 # loop over placements trying to find the most optimal board
-game_attempt_limit = 400
+game_attempt_limit = 1000
 min_placed_words = len(words)
 for g in range(0,game_attempt_limit):
     unused = []
