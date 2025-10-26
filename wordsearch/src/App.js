@@ -22,7 +22,7 @@ export default function App() {
     const cellW = Math.floor(maxWidth / cols);
     const cellH = Math.floor(maxHeight / rows);
     const newCell = Math.min(50, Math.min(cellW, cellH));
-    const newFont = Math.min(28, Math.floor(newCell * 0.55));
+    const newFont = Math.min(28, Math.max(12, Math.floor(newCell * 0.55)));
     setCellSize(newCell);
     setFontSize(newFont);
   };
@@ -178,14 +178,22 @@ export default function App() {
       ctx.translate(centerX, centerY);
       ctx.rotate(ov.angle);
       ctx.beginPath();
-      ctx.ellipse(0, 0, length / 2, cellSize / 1.5, 0, 0, 2 * Math.PI);
-      ctx.fillStyle = "rgba(0,128,0,0.2)";
+
+      const radius = cellSize / 1.5;
+      const rectLength = length - radius * 2;
+
+      // Draw the pill shape
+      ctx.moveTo(-rectLength / 2, -radius);
+      ctx.lineTo(rectLength / 2, -radius);
+      ctx.arc(rectLength / 2, 0, radius, -Math.PI / 2, Math.PI / 2);
+      ctx.lineTo(-rectLength / 2, radius);
+      ctx.arc(-rectLength / 2, 0, radius, Math.PI / 2, -Math.PI / 2);
+      ctx.closePath();
+
+      ctx.fillStyle = "rgba(0,128,0,0.3)";
       ctx.fill();
-      // borders around the solved ovals
-      // ctx.lineWidth = 2;
-      // ctx.strokeStyle = "rgba(0,128,0,0.7)";
-      // ctx.stroke();
       ctx.restore();
+
     });
 
     // selection outline
@@ -207,11 +215,23 @@ export default function App() {
       ctx.translate(centerX, centerY);
       ctx.rotate(angle);
       ctx.beginPath();
-      ctx.ellipse(0, 0, length / 2, cellSize / 1.5, 0, 0, 2 * Math.PI);
+
+      const radius = cellSize / 1.5;
+      const rectLength = length - radius * 2;
+
+      // Draw the pill shape
+      ctx.moveTo(-rectLength / 2, -radius);
+      ctx.lineTo(rectLength / 2, -radius);
+      ctx.arc(rectLength / 2, 0, radius, -Math.PI / 2, Math.PI / 2);
+      ctx.lineTo(-rectLength / 2, radius);
+      ctx.arc(-rectLength / 2, 0, radius, Math.PI / 2, -Math.PI / 2);
+      ctx.closePath();
+
       ctx.strokeStyle = "rgba(255,0,0,0.6)";
       ctx.lineWidth = 3;
       ctx.stroke();
       ctx.restore();
+
     }
 
   }, [grid, ovals, selection, cellSize, fontSize]);
