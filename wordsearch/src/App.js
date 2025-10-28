@@ -8,6 +8,7 @@ export default function App() {
   const [words, setWords] = useState([]);
   const [ovals, setOvals] = useState([]);
   const [selection, setSelection] = useState(null);
+  const [wordFileName, setWordFileName] = useState("");
 
   const [cellSize, setCellSize] = useState(40);
   const [fontSize, setFontSize] = useState(20);
@@ -56,6 +57,7 @@ export default function App() {
   const handleWordsUpload = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
+    setWordFileName(file.name);
     const text = await file.text();
     const list = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean).map(w => w.toUpperCase());
     const sorted = list.sort((a, b) => a.length - b.length);
@@ -266,7 +268,13 @@ export default function App() {
     });
 
     pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
-    pdf.save("wordsearch.pdf");
+
+    // Use the uploaded word file name to create the output name
+    const pdfName = wordFileName
+    ? wordFileName.replace(/^(.*)\.\w+$/, "solved_$1.pdf")
+    : "solved_puzzle.pdf";
+
+    pdf.save(pdfName);
   };
 
   return (
@@ -315,7 +323,7 @@ export default function App() {
         }}>
           <div style={{ background: "white", padding: 24, borderRadius: 8, textAlign: "center" }}>
             <div style={{ fontSize: 32, fontWeight: "700" }}>Yay! You did it!</div>
-            <button onClick={exportPDF}>Download PDF</button>import { jsPDF } from "jspdf";
+            <div><button onClick={exportPDF}>Download PDF</button> { jsPDF } </div>
             <button onClick={dismissOverlay} style={{ marginTop: 16, fontSize: 16, padding: "8px 16px" }}>Dismiss</button>
           </div>
         </div>
