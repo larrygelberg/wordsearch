@@ -179,8 +179,8 @@ export default function App() {
       ctx.rotate(ov.angle);
       ctx.beginPath();
 
-      const radius = cellSize / 1.5;
-      const rectLength = length - radius * 2;
+      const radius = cellSize / 2;
+      const rectLength = length - radius;
 
       // Draw the pill shape
       ctx.moveTo(-rectLength / 2, -radius);
@@ -216,8 +216,8 @@ export default function App() {
       ctx.rotate(angle);
       ctx.beginPath();
 
-      const radius = cellSize / 1.5;
-      const rectLength = length - radius * 2;
+      const radius = cellSize / 2;
+      const rectLength = length - radius;
 
       // Draw the pill shape
       ctx.moveTo(-rectLength / 2, -radius);
