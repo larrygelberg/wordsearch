@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { jsPDF } from "jspdf";
 
 export default function App() {
   const canvasRef = useRef(null);
@@ -179,7 +180,7 @@ export default function App() {
       ctx.rotate(ov.angle);
       ctx.beginPath();
 
-      const radius = cellSize / 2;
+      const radius = cellSize / 2.5;
       const rectLength = length - radius;
 
       // Draw the pill shape
@@ -190,8 +191,12 @@ export default function App() {
       ctx.arc(-rectLength / 2, 0, radius, Math.PI / 2, -Math.PI / 2);
       ctx.closePath();
 
-      ctx.fillStyle = "rgba(0,128,0,0.3)";
+      ctx.fillStyle = "rgba(128,128,128,0.3)";
       ctx.fill();
+
+      ctx.strokeStyle = "rgba(32, 32, 32, 1.0)";
+      ctx.lineWidth = 3;
+      ctx.stroke();
       ctx.restore();
 
     });
@@ -216,7 +221,7 @@ export default function App() {
       ctx.rotate(angle);
       ctx.beginPath();
 
-      const radius = cellSize / 2;
+      const radius = cellSize / 2.5;
       const rectLength = length - radius;
 
       // Draw the pill shape
@@ -249,6 +254,20 @@ export default function App() {
   }, [grid]);
 
   const dismissOverlay = () => setShowOverlay(false);
+
+  const exportPDF = () => {
+    const canvas = canvasRef.current;
+    const imgData = canvas.toDataURL("image/png");
+
+    const pdf = new jsPDF({
+      orientation: canvas.width > canvas.height ? "landscape" : "portrait",
+      unit: "px",
+      format: [canvas.width, canvas.height],
+    });
+
+    pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
+    pdf.save("wordsearch.pdf");
+  };
 
   return (
     <div style={{ position: "relative", padding: 16, display: "flex", gap: 20 }}>
@@ -296,6 +315,7 @@ export default function App() {
         }}>
           <div style={{ background: "white", padding: 24, borderRadius: 8, textAlign: "center" }}>
             <div style={{ fontSize: 32, fontWeight: "700" }}>Yay! You did it!</div>
+            <button onClick={exportPDF}>Download PDF</button>import { jsPDF } from "jspdf";
             <button onClick={dismissOverlay} style={{ marginTop: 16, fontSize: 16, padding: "8px 16px" }}>Dismiss</button>
           </div>
         </div>
