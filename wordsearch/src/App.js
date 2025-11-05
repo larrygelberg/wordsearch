@@ -271,7 +271,7 @@ export default function App() {
 
     // Use the uploaded word file name to create the output name
     const pdfName = wordFileName
-    ? wordFileName.replace(/^(.*)\.\w+$/, "solved_$1.pdf")
+    ? wordFileName.replace(/^words_(.*)\.\w+$/, "solved_$1.pdf")
     : "solved_puzzle.pdf";
 
     pdf.save(pdfName);

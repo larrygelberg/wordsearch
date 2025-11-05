@@ -288,7 +288,7 @@ print_game()
 print()
 print()
 print("Find these words: ")
-pretty_print(sorted(final_used, key=len))
+pretty_print(sorted(final_used))
 
 # print any words that couldn't be placed
 if len(unused) > 0:
