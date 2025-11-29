@@ -21,7 +21,7 @@ Lynx
 Mainecoon
 Manx
 Margay
-MoutainLion
+MountainLion
 Mouser
 Ocelot
 Panther
