@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python Debugger: Shape Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ws.py",
+            "console": "integratedTerminal",
+            "args": ["--shape_file", "flowers_shape.txt", "fabrics.txt"]
+        },
+        {
+            "name": "Python Debugger: Basic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ws.py",
+            "console": "integratedTerminal",
+            "args": ["--width","10","--height","10", "test.txt"]
+        },
+        {
+            "name": "Python Debugger: Rectangular",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ws.py",
+            "console": "integratedTerminal",
+            "args": ["--width","8","--height","4", "test.txt"]
+        }        
+    ]
+}
