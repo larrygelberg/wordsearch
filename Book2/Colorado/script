@@ -1,0 +1,1 @@
+python3 ../../ws.py word_colorado.txt --width 26 --height 18 --no_space
