@@ -3,7 +3,6 @@ BobbieSandwich
 Brandywine
 CapeHenlopen
 Capriottis
-ChesapeakeBay
 Christiana
 DelawareBay
 Beaches
@@ -19,6 +18,7 @@ Fireflies
 GrottosPizza
 JoeBiden
 Lewes
+MemorialBridge
 Middletown
 NASCAR
 Nanticoke
@@ -38,3 +38,4 @@ Wawa
 Wedge
 Wilmington
 Winterthur
+Peanut
