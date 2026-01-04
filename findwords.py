@@ -55,56 +55,44 @@ def find_word(grid, word):
     
     return found
 
-def draw_capsule(ax, start, end, cols, rows, h_spacing, v_spacing, font_size):
-    """Draw a capsule (rounded rectangle) around found word."""
+def draw_capsule(ax, start, end, h_spacing, v_spacing, font_size, rows):
     y1, x1 = start
     y2, x2 = end
-    
-    # Convert grid coordinates to plot coordinates with spacing
-    px1, py1 = x1 * h_spacing, rows - y1 - 1
-    px2, py2 = x2 * h_spacing, rows - y2 - 1
-    py1 *= v_spacing
-    py2 *= v_spacing
-    
-    # Calculate center and angle
-    center_x = (px1 + px2) / 2
-    center_y = (py1 + py2) / 2
-    
+
+    # Convert grid coordinates to plot coordinates
+    px1, py1 = x1 * h_spacing, (rows - y1 - 1) * v_spacing
+    px2, py2 = x2 * h_spacing, (rows - y2 - 1) * v_spacing
+
+    # Vector from start to end
     dx = px2 - px1
     dy = py2 - py1
     length = np.sqrt(dx**2 + dy**2)
     angle = np.degrees(np.arctan2(dy, dx))
-    
-    # Capsule dimensions based on font size
-    # Height is 110% of font size (1.1x)
-    # Font size in matplotlib roughly corresponds to height in data units when spacing is 1.0
-    # Scale by 0.05 per font point as a rough approximation
-    capsule_height = font_size * 0.06 * max(h_spacing, v_spacing)  # Reduced from 0.055
-    width = length + capsule_height
-    height = capsule_height
-    
-    # Adjust y-offset based on whether capsule is angled
-    # For horizontal/vertical words, shift down slightly for better visual alignment
-    is_angled = abs(dx) > 0.01 and abs(dy) > 0.01  # Check if diagonal
-    y_offset = height/1.7 if is_angled else height/2.35
 
-    # Create rounded rectangle (capsule)
+    # Capsule dimensions
+    padding = 0.3  # adjust for tight fit around letters
+    width = length + (padding * 3)
+    height = max(h_spacing, v_spacing) * 0.75  # cover letters fully
+
+    # Center of the capsule
+    center_x = (px1 + px2) / 2
+    center_y = (py1 + py2) / 2
+
+    # Create capsule
     capsule = patches.FancyBboxPatch(
-        (center_x - width/2, center_y - y_offset),
+        (center_x - width / 2, center_y - height / 2),
         width, height,
         boxstyle=f"round,pad=0.05,rounding_size={height/2}",
         linewidth=1.5,
         edgecolor='black',
-        facecolor=(0.7, 0.7, 0.7, 0.3),  # RGBA: gray with alpha only on fill
+        facecolor=(0.7, 0.7, 0.7, 0.15),
         transform=ax.transData
     )
-    
-    # Rotate the capsule
-    t = plt.matplotlib.transforms.Affine2D().rotate_deg_around(
-        center_x, center_y, angle
-    ) + ax.transData
+
+    # Rotate around center
+    t = plt.matplotlib.transforms.Affine2D().rotate_deg_around(center_x, center_y, angle) + ax.transData
     capsule.set_transform(t)
-    
+
     return capsule
 
 def display_word_search(grid_file, words_file, name):
@@ -159,7 +147,7 @@ def display_word_search(grid_file, words_file, name):
     # Initial spacing and size values
     h_spacing = [1.0]
     v_spacing = [1.0]
-    letter_size = [14]
+    letter_size = [13]
     
     def redraw():
         """Redraw the grid with current spacing and size."""
@@ -179,7 +167,7 @@ def display_word_search(grid_file, words_file, name):
         # Draw capsules for found words
         for word in found_words:
             for start, end in word_locations[word]:
-                capsule = draw_capsule(ax, start, end, cols, rows, h_spacing[0], v_spacing[0], letter_size[0])
+                capsule = draw_capsule(ax, start, end, h_spacing[0], v_spacing[0], letter_size[0], rows)
                 ax.add_patch(capsule)
                 capsule_patches.append(capsule)
         
@@ -202,7 +190,7 @@ def display_word_search(grid_file, words_file, name):
     v_slider = Slider(ax_v_slider, 'V-Spacing', 0.5, 2.0, valinit=1.0, valstep=0.05)
     
     ax_size_slider = plt.axes([0.14, 0.14, 0.7, 0.03])
-    size_slider = Slider(ax_size_slider, 'Letter Size', 10, 40, valinit=14, valstep=1)
+    size_slider = Slider(ax_size_slider, 'Letter Size', 5, 20, valinit=14, valstep=1)
     
     def update_h_spacing(val):
         h_spacing[0] = val

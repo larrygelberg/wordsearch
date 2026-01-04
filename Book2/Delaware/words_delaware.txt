@@ -1,5 +1,5 @@
 AubreyPlaza
-BobbieSandwich
+Bobbie
 Brandywine
 CapeHenlopen
 Capriottis
@@ -29,9 +29,7 @@ PeachFestival
 Punkin
 RehobothBeach
 Scrapple
-Seaford
 SmyrnaSpeedway
-SubmarineSandwich
 TaxFree
 ThrasherFries
 Wawa

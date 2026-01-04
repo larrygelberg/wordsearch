@@ -34,4 +34,3 @@ Taos
 TrinitySite
 WhiteSands
 Yucca
-Mooshie

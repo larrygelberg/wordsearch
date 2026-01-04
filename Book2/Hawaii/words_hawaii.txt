@@ -1,6 +1,5 @@
 Aloha
 Diamondhead
-Haleakala
 Hana
 Hibiscus
 Hilo
@@ -16,7 +15,6 @@ Lanai
 Lava
 Luau
 Macadamia
-Mahalo
 Manoa
 Maui
 Molokai

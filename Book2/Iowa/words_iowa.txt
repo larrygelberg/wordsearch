@@ -14,7 +14,6 @@ Cyclones
 Davenport
 DesMoines
 Dubuque
-dutchletters
 FieldofDreams
 FortDodge
 GrantWood
@@ -34,7 +33,8 @@ Scotcheroos
 Sioux
 Urbandale
 Waterloo
+Winnebago
+dutchletters
 hawkeyes
 panthers
 puppychow
-Winnebago
