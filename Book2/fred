@@ -1,0 +1,1265 @@
+Starting word search across directories...
+Using word list: /Users/larry/Documents/python/ws/Book2/dirty_words.txt
+= Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+
+Checking directory: Alabama
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_alabama.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Idaho
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_idaho.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Missouri
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_missouri.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Pennsylvania
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_pennsylvania.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Washington
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_washington.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Alaska
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_alaska.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Illinois
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_illinois.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Montana
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_montana.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: PuertoRico
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_puertorico.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: WestVirginia
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_westvirginia.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Arizona
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_arizona.txt
+WORDS FOUND:
+========================================
+  PISS
+
+Total found: 1
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  DAMN
+  SCREW
+
+Total not found: 8
+
+
+Checking directory: Indiana
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_indiana.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Nebraska
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_nebraska.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: RhodeIsland
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_rhodeisland.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Wisconsin
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_wisconsin.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Arkansas
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_arkansas.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Iowa
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_iowa.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Nevada
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_nevada.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: SouthCarolina
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_southcarolina.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Wyoming
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_wyoming.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Kansas
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_kansas.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: NewHampshire
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_newhampshire.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: SouthDakota
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_southdakota.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: California
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_california.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Kentucky
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_kentucky.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: NewJersey
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_newjersey.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Tennessee
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_tennessee.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Colorado
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_colorado.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Louisiana
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_louisiana.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: NewMexico
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_newmexico.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Texas
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_texas.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Connecticut
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_connecticut.txt
+An error occurred: Grid rows have inconsistent lengths: [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 123]
+
+
+Checking directory: Maine
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_maine.txt
+WORDS FOUND:
+========================================
+  SHIT
+
+Total found: 1
+
+========================================
+WORDS NOT FOUND:
+========================================
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 8
+
+
+Checking directory: NewYork
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_newyork.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: DC
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_dc.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Maryland
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_maryland.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: NorthCarolina
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_northcarolina.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Delaware
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_delaware.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Massachusetts
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_massachusetts.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: NorthDakota
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_northdakota.txt
+WORDS FOUND:
+========================================
+  DICK
+
+Total found: 1
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 8
+
+
+Checking directory: Florida
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_florida.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Michigan
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_michigan.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Ohio
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_ohio.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Utah
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_utah.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Georgia
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_georgia.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Minnesota
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_minnesota.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Oklahoma
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_oklahoma.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+Warning: Directory 'Vermon' does not exist, skipping...
+
+
+Checking directory: Hawaii
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_hawaii.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Mississippi
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_mississippi.txt
+WORDS FOUND:
+========================================
+  PISS
+
+Total found: 1
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  DAMN
+  SCREW
+
+Total not found: 8
+
+
+Checking directory: Oregon
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_oregon.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Checking directory: Virginia
+Alabama Alaska Arizona Arkansas Book2 Covers California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada NewHampshire NewJersey NewMexico NewYork NorthCarolina NorthDakota Ohio Oklahoma Oregon Pennsylvania PuertoRico RhodeIsland SouthCarolina SouthDakota Tennessee Texas USAPuzzles-V2.pdf USAPuzzles.pages USAPuzzles.pdf Utah Vermont Virginia Washington WestVirginia Wisconsin Wyoming dirty_words.txt fred generate_lists.py grid.txt list words.txt 60
+
+  Processing: grid_virginia.txt
+WORDS FOUND:
+========================================
+
+Total found: 0
+
+========================================
+WORDS NOT FOUND:
+========================================
+  SHIT
+  FUCK
+  CUNT
+  DICK
+  PRICK
+  PENIS
+  PISS
+  DAMN
+  SCREW
+
+Total not found: 9
+
+
+Word search complete!

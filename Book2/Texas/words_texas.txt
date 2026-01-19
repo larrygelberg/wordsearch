@@ -12,16 +12,15 @@ Dallas
 ElPaso
 FortWorth
 Galveston
-Garland
 HillCountry
 Houston
 Irving
 Laredo
+Lonestar
 Longhorns
 Lubbock
 Mavericks
 Mesquite
-PadreIsland
 Panhandle
 Plano
 Rangers
@@ -29,6 +28,7 @@ RiverWalk
 Rodeo
 SanAntonio
 Selena
+SouthPadre
 Spurs
 Stars
 Tejano

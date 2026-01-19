@@ -9,13 +9,14 @@ Cambridge
 CapeCod
 Celtics
 Chickadee
-Chowder
+Chowdah
 Cranberry
 Dunkies
 FenwayPark
 Frappe
 FreedomTrail
 HahvahdYahd
+HARBOR
 Haverhill
 Kennedy
 Lawrence
@@ -33,4 +34,5 @@ Somerville
 Springfield
 TeaParty
 UMass
+Wicked
 Worcester

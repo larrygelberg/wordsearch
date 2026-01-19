@@ -1,6 +1,5 @@
 Ballwin
 BarBQ
-Bass
 BlueSprings
 Blues
 Branson
@@ -11,20 +10,22 @@ CharlieParker
 Chesterfield
 Chiefs
 Columbia
+DredScott
 Florissant
 GatewayArch
-Gladstone
 Hannibal
 Independence
 JeffersonCity
 Joplin
 KansasCity
+KCJazz
 LakeOzark
 LeesSummit
 MarkTwain
 MissouriRiver
 Ozarks
 PAddlefish
+Ragtime
 Sedalia
 Showme
 SilverDollar
@@ -33,4 +34,4 @@ StLouis
 StCharles
 TableRock
 Truman
-Wildwood
+Mooshie

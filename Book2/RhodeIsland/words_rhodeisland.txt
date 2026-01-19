@@ -7,7 +7,6 @@ ClamCakes
 Coventry
 Cranston
 Cumberland
-DelSano
 Gatsby
 HotWeiner
 Jamestown
@@ -29,4 +28,5 @@ StripedBass
 RogerWilliams
 Tennis
 Warwick
+Waterfire
 Woonsocket

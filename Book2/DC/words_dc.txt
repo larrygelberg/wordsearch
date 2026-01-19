@@ -10,7 +10,7 @@ DupontCir
 EmbassyRow
 FoggyBottom
 Georgetown
-Hirshorn
+Hirshhorn
 HowardU
 Jefferson
 KennedyCtr

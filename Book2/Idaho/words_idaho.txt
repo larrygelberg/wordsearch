@@ -13,11 +13,9 @@ CratersMoon
 HellsCANYON
 Hiking
 Idaho
-Idaho
 Ketchum
 LemhiPass
 Meridian
-Mining
 Nampa
 Payette
 Pocatello
@@ -32,9 +30,7 @@ Snake
 Steelhead
 SunValley
 Teton
-Treasure
 Trout
 TwinFalls
 Vandals
 Whitewater
-Yellowstone

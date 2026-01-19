@@ -1,20 +1,17 @@
 Aberdeen
 Badlands
-Belle
 BisonHerds
 BlackHills
 BoxElder
-Brandon
 Brookings
 Buffalo
 Chislic
 CornPalace
 CrazyHorse
-CusterPark
+CusterStatePark
 Deadwood
 BelleFourche
 Gambling
-HarrisburgTea
 Hunting
 Huron
 Lakota
@@ -33,4 +30,3 @@ Sturgis
 Vermillion
 WallDrug
 Watertown
-Yankton
