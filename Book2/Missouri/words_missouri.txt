@@ -1,6 +1,5 @@
 Ballwin
 BarBQ
-BlueSprings
 Blues
 Branson
 BurntEnds
@@ -25,6 +24,7 @@ MarkTwain
 MissouriRiver
 Ozarks
 PAddlefish
+Pershing
 Ragtime
 Sedalia
 Showme
@@ -34,4 +34,3 @@ StLouis
 StCharles
 TableRock
 Truman
-Mooshie

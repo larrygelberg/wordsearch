@@ -1,5 +1,6 @@
 Aberdeen
 Badlands
+BelleFourche
 BisonHerds
 BlackHills
 BoxElder
@@ -7,10 +8,10 @@ Brookings
 Buffalo
 Chislic
 CornPalace
+Coyote
 CrazyHorse
 CusterStatePark
 Deadwood
-BelleFourche
 Gambling
 Hunting
 Huron
@@ -20,9 +21,8 @@ Mitchell
 MtRushmore
 Pheasant
 Pierre
-Prairie
 Powwow
-SturgisRally
+Prairie
 RapidCity
 SiouxFalls
 Spearfish

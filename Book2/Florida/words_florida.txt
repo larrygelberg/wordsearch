@@ -9,6 +9,7 @@ Daytona
 Disney
 Dolphins
 Everglades
+Flamingo
 Gainesville
 Gators
 Heat
@@ -16,7 +17,6 @@ Hialeah
 Hurricanes
 KeyLime
 KeyWest
-Keys
 Lauderdale
 Lightning
 Lovebugs

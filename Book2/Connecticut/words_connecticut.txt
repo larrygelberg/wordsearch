@@ -1,6 +1,7 @@
 Aetna
 BearMountain
 Bridgeport
+CharterOak
 Chowder
 Groton
 DairyQueen
@@ -18,13 +19,13 @@ LongIslandSound
 MarkTwain
 Mashantucket
 Mohegan
-MysticPizza
 MysticSeaport
 Naugatuck
 NewCanaan
 NewEngland
 NewHaven
 Norwalk
+Nutmeg
 PeabodyMuseum
 Pepes
 Pizza
@@ -35,6 +36,5 @@ Stonington
 Submarine
 UConn
 Waterbury
-WestHartford
 Whalers
 Yale

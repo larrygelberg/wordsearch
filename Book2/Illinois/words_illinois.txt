@@ -13,13 +13,13 @@ Decatur
 DeepDish
 Elgin
 Evanston
-Field
 Joliet
 LakeMichigan
 Lincoln
 Loop
 Magnificent
 Malort
+Midway
 Millennium
 Museum
 Naperville
@@ -37,4 +37,4 @@ Shedd
 Springfield
 WhiteSox
 Willis
-Wrigley
+WrigleyField
