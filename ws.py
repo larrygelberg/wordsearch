@@ -48,13 +48,14 @@ def hairy_fill():
             elif (final_game[j][i] == 0):
                 final_game[j][i] = random.choice(most_frequent_chars)
 
-# Function to print the game board
+# Function to print the game board both to console and to grid.txt file
 def print_game():
     endchar = '' if nospace else ' '
-    for i in range(height):
-        print ('')
-        for j in range(width):
-            print(str(final_game[j][i]),end=endchar)
+    with open('grid.txt', 'w') as f:
+        for i in range(height):
+            line = endchar.join(str(final_game[j][i]) for j in range(width))
+            print(line)
+            f.write(line + '\n')
 
 def print_shape():
     print(shape,width,height)
@@ -288,7 +289,13 @@ print_game()
 print()
 print()
 print("Find these words: ")
-pretty_print(sorted(final_used))
+#
+# Use this to print in alphabetic order:
+# pretty_print(sorted(final_used))
+#
+# Use this to print in word length order:
+pretty_print(sorted(final_used, key=len))
+
 
 # print any words that couldn't be placed
 if len(unused) > 0:

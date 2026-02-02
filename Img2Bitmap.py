@@ -33,7 +33,7 @@ def main():
         sys.exit(1)
 
     output = img_to_dotzero_threshold(image_path, out_width)
-    print(output)
+    print(output, end='')
 
 if __name__ == '__main__':
     main()
