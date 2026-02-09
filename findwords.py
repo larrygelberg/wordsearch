@@ -70,8 +70,8 @@ def draw_capsule(ax, start, end, h_spacing, v_spacing, font_size, rows):
     angle = np.degrees(np.arctan2(dy, dx))
 
     # Capsule dimensions
-    padding = 0.3  # adjust for tight fit around letters
-    width = length + (padding * 3)
+    padding = 0.2  # adjust for tight fit around letters
+    width = length + (padding * 3.5)
     height = max(h_spacing, v_spacing) * 0.75  # cover letters fully
 
     # Center of the capsule
@@ -172,7 +172,7 @@ def display_word_search(grid_file, words_file, name):
                 capsule_patches.append(capsule)
         
         # Set up plot with adjusted limits - add extra padding for capsules
-        padding = 0.8  # Extra padding to prevent capsule clipping
+        padding = 1.0  # Extra padding to prevent capsule clipping
         ax.set_xlim(-padding * h_spacing[0], (cols - 1 + padding) * h_spacing[0])
         ax.set_ylim(-padding * v_spacing[0], (rows - 1 + padding) * v_spacing[0])
         ax.set_aspect('equal')

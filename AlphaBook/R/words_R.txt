@@ -1,9 +1,7 @@
 Rabbit
-Rain
 Robot
 River
 Rose
-Rock
 Rainbow
 Ring
 Roof
@@ -12,5 +10,7 @@ Ruler
 Rope
 Rug
 Rice
+Raccoon
+Reading
 Rat
 Razzmatazz

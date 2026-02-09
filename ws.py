@@ -293,8 +293,8 @@ print("Find these words: ")
 # Use this to print in alphabetic order:
 # pretty_print(sorted(final_used))
 #
-# Use this to print in word length order:
-pretty_print(sorted(final_used, key=len))
+# Use this to print in word length, then alphabetically order:
+pretty_print(sorted(final_used, key=lambda x: (len(x), x)))
 
 
 # print any words that couldn't be placed
